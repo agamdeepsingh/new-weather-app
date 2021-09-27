@@ -8,7 +8,7 @@ const static_path = path.join(__dirname, "../public");
 const templates_path = path.join(__dirname, "../templates/views");
 const partials_path = path.join(__dirname, "../templates/partials");
 
-
+console.log('hello world');
 
 app.set("view engine", "hbs");
 app.set("views", templates_path);
