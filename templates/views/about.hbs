@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+</head>
+<body>
+   {{>navbar}}
+    <!-- main header -->
+    <div class = "container fluid main_header" >
+        <div class = "row">
+            <div class = "col-md-10 col-12 mx-auto">
+                <div class = "row">
+                    <!-- right side div -->
+                    <div class = "col-md-6 col-12 main_header_right align-items-center">
+                        <figure>
+                            <img src = "images/figure.jpg" alt ="Agam" class = "img_fluid" tittle = "Agam Project">
+                        </figure>
+                    </div>
+                    <!-- left side div -->
+                    <div class = "col-md-6 col-12 main_header_left">
+                        <p>Welcome to my <span class = "txt_clr">Weather</span> App.</p>
+                        <h1> Click on the button bellow to know more about me.</h1>
+                        <a href = "/about"><button>About Me</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+</html>
